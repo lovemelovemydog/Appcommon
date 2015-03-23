@@ -39,7 +39,7 @@ public class MyActivity extends BaseFragmentActivity {
     ImageFetcher mImageFetcher = null;
 
     //图片测试接口
-    String url = "http://w.51tv.com/snapshotMovie?action=getSnapshotMovie&start={start}&rows=20";
+    String url = "http://localhost:8080/snapshotMovie?action=getSnapshotMovie&start={start}&rows=20";
 
     /**
      * Called when the activity is first created.
